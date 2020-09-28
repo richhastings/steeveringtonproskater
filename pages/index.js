@@ -13,7 +13,7 @@ export default function Home() {
         <source src="ste.mp4" type="video/mp4" />
       </video>
 
-      <iframe width="1280" height="720" src="https://youtu.be/7kecW5p0b5I?t=37" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+      <iframe style={{'display': 'none'}} src="ste.mp3" allow='autoplay' />
 
       <main className={styles.main}>
         <div className={styles.content}>
